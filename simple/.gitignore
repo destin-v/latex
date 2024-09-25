@@ -1,0 +1,20 @@
+# These are generated files
+.DS_Store
+*.synctex.gz
+*.aux
+*.lof
+*.lot
+*.log
+*.bbl
+*.blg
+*.bcf
+*.fdb_latexmk
+*.fls
+*.glg
+*.glo
+*.gls
+*.ist
+*.toc
+*.xml
+
+template.pdf

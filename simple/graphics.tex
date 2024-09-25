@@ -1,0 +1,26 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Graphics
+% ------------------------------------------------------------
+% This section of code control the graphics shown in your
+% document.  By default, it will place the company logo in the
+% top right corner of your document.  You can modify it
+% include additional logos if you wish.
+%
+% The default formatting will by default add a page number
+% counter to the bottom right of your document.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Pathing
+\graphicspath{ {graphics/} } 				            % include folder for images
+
+% Header Properties
+\addtolength{\headheight}{1.0cm} 					    % make more space for the header
+\rhead{\includegraphics[height=1cm]{knight.pdf}}    % right logo
+
+% Footer Properties
+\fancyfoot[C]{\textsc{Proprietary}}                     % proprietary marking
+
+% Colors
+\definecolor{LightBlue}{RGB}{0,128,255}                 % custom colors
+\definecolor{DarkBlue}{RGB}{0,102,204}                  % custom colors
+\definecolor{Gray}{RGB}{235,235,235}                    % custom colors
