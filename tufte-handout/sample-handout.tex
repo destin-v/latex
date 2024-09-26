@@ -11,7 +11,7 @@
 \usepackage{tcolorbox}
 \usepackage{units}    	% non-stacked fractions and better unit spacing
 \usepackage{wrapfig}
-\usepackage{../graphics/highlight} 	% add custom highlighting from highlight.sty
+\usepackage{../addons/highlight} 	% add custom highlighting from highlight.sty
 
 \title{An Example of the Usage of the Tufte-Handout Style\thanks{Inspired by Edward~R. Tufte!}}
 \author[The Tufte-LaTeX Developers]{The Tufte-\LaTeX\ Developers}
@@ -32,6 +32,7 @@
 \newcommand{\doccls}[1]{\texttt{#1}}% document class name
 \newcommand{\docclsopt}[1]{\texttt{#1}}% document class option name
 \newenvironment{docspec}{\begin{quote}\noindent}{\end{quote}}% command specification environment
+\def\UrlBreaks{\do\/\do-} % break long urls by using '-'
 
 \begin{document}
 

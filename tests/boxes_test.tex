@@ -1,0 +1,28 @@
+\documentclass[]{article}
+
+\input{../addons/boxes.tex}
+
+\begin{document}
+\section{Your boxes}
+An example theorem is shown in theorem~\ref{th:pnt}, and there is
+example~\ref{ex:bertrand}.
+\begin{Theorem}{Prime Number Theorem (PNT)}{pnt}
+    \begin{equation*}
+        \pi(x)\sim\frac{x}{\log x}
+    \end{equation*}
+\end{Theorem}
+
+\begin{Example}{Generalisation of Bertrand's Postulate}{bertrand}
+    Let $\varepsilon>0$. Prove that there exist a prime between $n$ and
+    $(1+\varepsilon)n$ for all large $n$, in particular there always exist a
+    prime between $n$ and $2n$ for $n>1$.
+\end{Example}
+
+\begin{Definition}{Ordinary}
+    An ordinary differential equation, often abbreviated as an ODE, is a
+    differential equation that is in the form of:
+    \begin{equation*}
+        F(x,y,y',y''\cdots)=0
+    \end{equation*}
+\end{Definition}
+\end{document}

@@ -1,4 +1,4 @@
 {
     "editor.formatOnSave": true,
-    "latex-workshop.latexindent.path": "latexindent"
+    "latex-workshop.formatting.latex": "latexindent",
 }
