@@ -1,5 +1,7 @@
 \documentclass[table]{tufte-handout}
 
+\newcommand{\srcpath}{../../src}
+
 \usepackage{amsmath}  	% extended mathematics
 \usepackage{booktabs} 	% book-quality tables
 \usepackage{fancyvrb} 	% extended verbatim environments
@@ -20,7 +22,7 @@
 
 %\geometry{showframe} % display margins for debugging page layout
 \setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
-\graphicspath{{graphics/}} % set of paths to search for images
+\graphicspath{{../../graphics/}} % set of paths to search for images
 \fvset{fontsize=\normalsize}% default font size for fancy-verbatim environments
 
 % Standardize command font styles and environments
@@ -288,7 +290,7 @@ The website for the Tufte-\LaTeX\ packages is located at
 \url{https://github.com/Tufte-LaTeX/tufte-latex}.  On our website, you'll find
 links to our \smallcaps{svn} repository, mailing lists, bug tracker, and documentation.
 
-\bibliography{sample-handout}
+\bibliography{\srcpath/references}
 \bibliographystyle{plainnat}
 
 

@@ -21,8 +21,8 @@
 % TODO The abstract should be printed on its own page of the `titlepage'
 % option was specified.
 \renewenvironment{abstract}
-  {\begin{quotation}\if@tufte@sfsidenotes\begin{sffamily}\fi}
-  {\if@tufte@sfsidenotes\end{sffamily}\fi\end{quotation}}
+{\begin{quotation}\if@tufte@sfsidenotes\begin{sffamily}\fi}
+      {\if@tufte@sfsidenotes\end{sffamily}\fi\end{quotation}}
 
 
 %%

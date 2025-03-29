@@ -1,0 +1,103 @@
+\documentclass[table,conference]{IEEETran}
+\IEEEoverridecommandlockouts
+% \usepackage[utf8]{inputenc}
+\usepackage{algorithmic}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{cite}
+\usepackage{etoolbox}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{../addons/highlight}
+\usepackage{hyperref}
+\usepackage{multirow}
+\usepackage{soul}
+\usepackage{textcomp}
+\usepackage{tcolorbox}
+\usepackage{url}
+
+% Set paths
+\graphicspath{ {../../graphics/} }
+
+% Custom highlighting modifications
+\renewcommand{\opacity}{50}
+\hypersetup{
+    colorlinks = true,
+    citecolor = {blue},
+    urlcolor = {blue},
+}
+
+% Custom Bibtex modification
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\newcommand{\srcpath}{../../src}
+
+\begin{document}
+
+\title{Conference Paper Title*\\
+{\footnotesize \textsuperscript{*}Note: Sub-titles are not captured in Xplore and
+should not be used}
+\thanks{Identify applicable funding agency here. If none, delete this.}
+}
+
+\author{\IEEEauthorblockN{1\textsuperscript{st} Given Name Surname}
+    \IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
+        \textit{name of organization (of Aff.)}\\
+        City, Country \\
+        email address or ORCID}
+    \and
+    \IEEEauthorblockN{2\textsuperscript{nd} Given Name Surname}
+    \IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
+        \textit{name of organization (of Aff.)}\\
+        City, Country \\
+        email address or ORCID}
+    \and
+    \IEEEauthorblockN{3\textsuperscript{rd} Given Name Surname}
+    \IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
+        \textit{name of organization (of Aff.)}\\
+        City, Country \\
+        email address or ORCID}
+    \and
+    \IEEEauthorblockN{4\textsuperscript{th} Given Name Surname}
+    \IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
+        \textit{name of organization (of Aff.)}\\
+        City, Country \\
+        email address or ORCID}
+    \and
+    \IEEEauthorblockN{5\textsuperscript{th} Given Name Surname}
+    \IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
+        \textit{name of organization (of Aff.)}\\
+        City, Country \\
+        email address or ORCID}
+    \and
+    \IEEEauthorblockN{6\textsuperscript{th} Given Name Surname}
+    \IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
+        \textit{name of organization (of Aff.)}\\
+        City, Country \\
+        email address or ORCID}
+}
+
+\maketitle
+
+\begin{abstract}
+    \input{\srcpath/01_abstract}
+\end{abstract}
+
+\begin{IEEEkeywords}
+    component, formatting, style, styling, insert
+\end{IEEEkeywords}
+
+\input{\srcpath/02_background}
+\input{\srcpath/03_problem}
+\input{\srcpath/04_solution}
+\input{\srcpath/05_results}
+\input{\srcpath/06_conclusion}
+\input{\srcpath/07_acknowledgements}
+\input{\srcpath/08_appendix}
+
+\bibliography{references}
+\bibliographystyle{plainnat}
+
+\end{document}

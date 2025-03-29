@@ -1,5 +1,7 @@
 \documentclass{tufte-book}
 
+\newcommand{\srcpath}{../../src}
+
 \hypersetup{colorlinks}% uncomment this line if you prefer colored hyperlinks (e.g., for onscreen viewing)
 
 %%
@@ -28,7 +30,7 @@
 % For graphics / images
 \usepackage{graphicx}
 \setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
-\graphicspath{{graphics/}}
+\graphicspath{{../../graphics/}}
 
 % The fancyvrb package lets us customize the formatting of verbatim
 % environments.  We use a slightly smaller font.
@@ -354,13 +356,13 @@ the following table.
 \end{center}
 
 \begin{figure*}[p]
-  \fbox{\includegraphics[width=0.45\linewidth]{graphics/vdqi-title.pdf}}
+  \fbox{\includegraphics[width=0.45\linewidth]{vdqi-title.pdf}}
   \hfill
-  \fbox{\includegraphics[width=0.45\linewidth]{graphics/ei-title.pdf}}
+  \fbox{\includegraphics[width=0.45\linewidth]{ei-title.pdf}}
   \\\vspace{\baselineskip}
-  \fbox{\includegraphics[width=0.45\linewidth]{graphics/ve-title.pdf}}
+  \fbox{\includegraphics[width=0.45\linewidth]{ve-title.pdf}}
   \hfill
-  \fbox{\includegraphics[width=0.45\linewidth]{graphics/be-title.pdf}}
+  \fbox{\includegraphics[width=0.45\linewidth]{be-title.pdf}}
 \end{figure*}
 
 \newthought{The tables of contents} in Tufte's books give us our first
@@ -369,13 +371,13 @@ parts, each containing some number of chapters.  His other three books only
 contain chapters---they're not broken into parts.
 
 \begin{figure*}[p]\index{table of contents}
-  \fbox{\includegraphics[width=0.45\linewidth]{graphics/vdqi-contents.pdf}}
+  \fbox{\includegraphics[width=0.45\linewidth]{vdqi-contents.pdf}}
   \hfill
-  \fbox{\includegraphics[width=0.45\linewidth]{graphics/ei-contents.pdf}}
+  \fbox{\includegraphics[width=0.45\linewidth]{ei-contents.pdf}}
   \\\vspace{\baselineskip}
-  \fbox{\includegraphics[width=0.45\linewidth]{graphics/ve-contents.pdf}}
+  \fbox{\includegraphics[width=0.45\linewidth]{ve-contents.pdf}}
   \hfill
-  \fbox{\includegraphics[width=0.45\linewidth]{graphics/be-contents.pdf}}
+  \fbox{\includegraphics[width=0.45\linewidth]{be-contents.pdf}}
 \end{figure*}
 
 
@@ -1169,7 +1171,7 @@ classes rely upon.  Packages marked with an asterisk are optional.
 
 \backmatter
 
-\bibliography{sample-handout}
+\bibliography{\srcpath/references}
 \bibliographystyle{plainnat}
 
 
